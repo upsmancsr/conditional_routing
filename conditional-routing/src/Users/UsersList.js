@@ -23,10 +23,10 @@ const listOfRows = (users, itemsPerRow, match) => {
 };
 
 const UsersList = ({ users, itemsPerRow = 2, match }) => (
-<div className="cards">
-    <h3 className="is-size-3 has-text-centered">Users</h3>
-    {listOfRows(users, itemsPerRow, match)}
-</div>
+    <div className="cards">
+        <h3 className="is-size-3 has-text-centered">Users</h3>
+        {listOfRows(users, itemsPerRow, match)}
+    </div>
 );
 
 export default UsersList;
